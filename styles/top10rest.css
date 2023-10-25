@@ -7,6 +7,9 @@ font-family: 'Roboto Condensed', sans-serif; */
 }
 .bgNavBar{
     background-color: #86B088;
+    height: 101px;
+    margin-top: -1%;
+    margin-bottom: -1%;
 }
 .fontNavBar{
     font-family: Roboto-Bold;
