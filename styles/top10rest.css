@@ -1,0 +1,19 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+@font-face {
+    font-family: Roboto-Bold ;
+    src: url(../fonts/Roboto/Roboto/Roboto-Bold.ttf);
+}
+.bgNavBar{
+    background-color: #86B088;
+}
+.fontNavBar{
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: black;
+}
+.paddingNavBar{
+    margin-left: 50px;
+    margin-right: 50px;
+}
