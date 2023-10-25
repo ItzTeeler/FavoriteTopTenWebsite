@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Roboto-Bold ;
+    src: url(../fonts/Roboto/Roboto/Roboto-Bold.ttf);
+}
+.bgNavBar{
+    background-color: #86B088;
+    height: 101px;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+.fontNavBar{
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: black;
+}
+.paddingNavBar{
+    margin-left: 50px;
+    margin-right: 50px;
+}
