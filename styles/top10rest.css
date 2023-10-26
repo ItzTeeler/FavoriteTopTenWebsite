@@ -60,6 +60,7 @@ h1{
 .cardBorder{
     border: none;
 }
+
 .imageSize{
     height: 489px;
 }
@@ -69,6 +70,7 @@ h1{
     max-width: 1273px;
 
 }
+
 #dennyHeight{
     height: 562.5px;
 }
@@ -92,6 +94,11 @@ h1{
 .navLink:hover{
     color: white;
 }
+
+.endFont{
+    display: flex;
+    justify-content: end;
+}
 @media screen and (max-width: 900px) {
     .marginContainer{
         margin-left: auto;
@@ -103,8 +110,8 @@ h1{
     };
 
     .paddingNavBar{
-        margin-left: 25px;
-        margin-right: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
     };
 
     
