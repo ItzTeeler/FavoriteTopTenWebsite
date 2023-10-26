@@ -12,6 +12,18 @@ background-color: rgba(255, 191, 191, 1);
     src: url(../fonts/Roboto/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .fontNavBar{
     font-family: Roboto-Bold;
     font-size: 24px;
@@ -28,10 +40,10 @@ background-color: rgba(255, 191, 191, 1);
     font-size: 24px;
     color: black;
 }
-.paddingNavBar{
-    margin-left: 50px;
-    margin-right: 50px;
-}
+/* .paddingNavBar{
+    padding-left: 10%;
+    padding-right: 10%;
+} */
 
 
 
