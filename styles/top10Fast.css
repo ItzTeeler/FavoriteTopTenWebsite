@@ -1,0 +1,31 @@
+/* card color
+background-color: rgba(255, 191, 191, 1);
+*/
+
+body{
+    background-color: rgba(206, 116, 116, 1);
+}
+.centerText{
+display:flex;
+justify-content: center;
+color: black;
+margin-top: 38px;
+margin-bottom: 38px;
+font-size: 36;
+font-style: bold;
+}
+
+.rankFont{
+font-size: 32px;
+font-style: bold;
+color: black;
+}
+
+.imgResize{
+/* width: 1270px; Do not need, changning card width auto adjust img inside */
+height: 562.5px;
+}
+.cardResize{
+    width: 1273px;
+    background-color: rgba(255, 191, 191, 1);
+}
