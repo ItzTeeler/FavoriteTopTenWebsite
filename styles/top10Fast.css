@@ -1,31 +1,114 @@
 /* card color
 background-color: rgba(255, 191, 191, 1);
 */
+/* unvisited link */
 
-body{
+@font-face {
+    font-family: Roboto-Bold ;
+    src: url(../fonts/Roboto/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Reg;
+    src: url(../fonts/Roboto/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
+}
+
+.fontNavBar{
+    font-family: Roboto-Bold;
+    font-size: 24px;
+}
+
+.bgNavBar{
+    background-color: #86B088;
+    /* height: 101px; */
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+.fontNavBar{
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: black;
+}
+.paddingNavBar{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: cornflowerblue;
+}
+
+/* selected link */
+a:active {
+    color: purple;
+}
+
+body {
     background-color: rgba(206, 116, 116, 1);
 }
-.centerText{
-display:flex;
-justify-content: center;
-color: black;
-margin-top: 38px;
-margin-bottom: 38px;
-font-size: 36;
-font-style: bold;
+
+.Color{
+    background-color: red;
+}
+.centerText {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 38px;
+    font-size: 36px;
+    font-style: bold;
 }
 
-.rankFont{
-font-size: 32px;
-font-style: bold;
-color: black;
+.rankFont {
+    font-size: 32px;
+    font-style: bold;
+    color: black;
+    /* margin-left: 22px; */
+    margin-top: 38px;
 }
 
-.imgResize{
-/* width: 1270px; Do not need, changning card width auto adjust img inside */
-height: 562.5px;
+.discFont {
+    font-size: 24px;
+    font-style: bold;
+    color: black;
 }
-.cardResize{
-    width: 1273px;
-    background-color: rgba(255, 191, 191, 1);
+
+
+.imgResize {
+    /* width: 1270px; Do not need, changning card width auto adjust img inside */
+    height: 562.5px;
+}
+
+.cardResize {
+    max-width: 1273px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(255, 191, 191, 1); */
+}
+
+@media screen and (max-width:1273px) {
+    .cardResize {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 714px;
+    };
+    .imgResize{
+        height:auto;
+    };
+    .paddingNavBar{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
 }
