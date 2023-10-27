@@ -40,10 +40,10 @@ background-color: rgba(255, 191, 191, 1);
     font-size: 24px;
     color: black;
 }
-/* .paddingNavBar{
-    padding-left: 10%;
-    padding-right: 10%;
-} */
+.paddingNavBar{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
 
 
 
@@ -80,20 +80,25 @@ body {
     margin-top: 38px;
     font-size: 36px;
     font-style: bold;
+    
 }
 
 .rankFont {
     font-size: 32px;
     font-style: bold;
     color: black;
-    /* margin-left: 22px; */
+    margin-left: 22px;
     margin-top: 38px;
+    font-family: Roboto-Bold ;
+    line-height: 1;
 }
 
 .discFont {
     font-size: 24px;
     font-style: bold;
     color: black;
+    font-family: Roboto-Reg;
+    line-height: 1;
 }
 
 
@@ -109,6 +114,8 @@ body {
     /* background-color: rgba(255, 191, 191, 1); */
 }
 
+
+
 @media screen and (max-width:1273px) {
     .cardResize {
         margin-left: auto;
@@ -119,8 +126,11 @@ body {
         height:auto;
     };
     .paddingNavBar{
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 10%;
+        margin-right:10%;
     }
+    /* .fontSize{
+        font-size: 10px;
+    } */
 
 }
