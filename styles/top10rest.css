@@ -1,25 +1,31 @@
 @font-face {
-    font-family: Roboto-Bold ;
+    font-family: Roboto-Bold;
     src: url(../fonts/Roboto/Roboto/Roboto-Bold.ttf);
 }
+
 @font-face {
     font-family: Roboto-Reg;
     src: url(../fonts/Roboto/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
 }
-body{
+
+body {
     background-color: #CE7474;
 }
-.bgCard{
+
+.bgCard {
     background-color: #CE7474;
 }
-.header{
+
+.header {
     font-family: Roboto-Bold;
     color: white;
 }
-.headerMP{
+
+.headerMP {
     margin-top: 37.5px;
 }
-.headerFontText{
+
+.headerFontText {
     font-family: Roboto-Bold;
     color: white;
     text-decoration: underline;
@@ -27,93 +33,110 @@ body{
     margin-left: 15px;
     font-size: 32px;
 }
-.bodyFontText{
+
+.bodyFontText {
     font-family: Roboto-Reg;
     color: white;
     padding: 15px;
     font-size: 24px;
-    line-height: 25px;
+    line-height: 1.25;
 }
-.backgroundNavBar{
+
+.backgroundNavBar {
     background-color: #86B088;
     margin-top: -1%;
     margin-bottom: -1%;
 }
-.marginNavBar{
+
+.marginNavBar {
     max-height: 101px;
 
 }
-.fontNavBar{
+
+.fontNavBar {
     font-family: Roboto-Bold;
     font-size: 24px;
     color: black;
 }
-.paddingNavBar{
+
+.paddingNavBar {
     padding-left: 50px !important;
     padding-right: 50px !important;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
 }
 
-.cardBorder{
+.cardBorder {
     border: none;
 }
 
-.imageSize{
+.imageSize {
     height: 489px;
 }
-.marginContainer{
+
+.marginContainer {
     margin-left: auto;
     margin-right: auto;
     max-width: 1273px;
 
 }
 
-#dennyHeight{
+#dennyHeight {
     height: 562.5px;
 }
 
 .vidLink:link {
     color: white;
 }
+
 /* visited link */
 .vidLink:visited {
     color: white;
 }
+
 /* mouse over link */
 .vidLink:hover {
     color: cornflowerblue;
 }
+
 /* selected link */
 .vidLink:active {
     color: purple;
 }
 
-.navLink:hover{
+.navLink:hover {
     color: white;
 }
 
-.endFont{
+.endFont {
     display: flex;
     justify-content: end;
 }
+
 @media screen and (max-width: 900px) {
-    .marginContainer{
+    .marginContainer {
         margin-left: auto;
         margin-right: auto;
         max-width: 714px;
-    };
-    .imageSize{
-        height: auto;
-    };
+    }
 
-    .paddingNavBar{
+    ;
+
+    .imageSize {
+        height: auto;
+    }
+
+    ;
+
+    .paddingNavBar {
         padding-left: 25px !important;
         padding-right: 25px !important;
-    };
+    }
 
-    
+    ;
+
+
 }

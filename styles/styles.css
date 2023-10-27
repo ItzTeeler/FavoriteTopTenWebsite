@@ -1,32 +1,33 @@
 @font-face {
-    font-family: Roboto-Bold ;
+    font-family: Roboto-Bold;
     src: url(../fonts/Roboto/Roboto/Roboto-Bold.ttf);
 }
+
 @font-face {
     font-family: Roboto-Reg;
     src: url(../fonts/Roboto/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
 }
 
-.indexFont{
-    font-family: Roboto-Bold ;
+.indexFont {
+    font-family: Roboto-Bold;
     text-align: center;
     font-size: 28px;
     font-style: none !important;
 }
 
 
-.bgCardColor{
+.bgCardColor {
     background-color: rgba(218, 218, 218, 1);
 }
 
-.middle{
+.middle {
 
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.cardBtn{
+.cardBtn {
     /* display: flex;
     justify-content: center; */
     border-radius: 4px;
@@ -35,72 +36,86 @@
     height: 50px;
     border: none;
 }
-.indexBodyFont{
+
+.indexBodyFont {
     font-family: Roboto-Reg;
     font-size: 16px;
     line-height: 1.5;
 }
-.buttonText{
+
+.buttonText {
     /* display: flex;
     align-items: center; */
     color: white;
     text-decoration: none;
 }
 
-.spacing{
+.spacing {
     display: flex;
     justify-content: center;
 }
 
-body{
+body {
     background-color: #CE7474;
 }
-.bgNavBar{
+
+.bgNavBar {
     background-color: #86B088;
     height: 101px;
     margin-top: -1%;
     margin-bottom: -1%;
 }
-.fontNavBar{
+
+.fontNavBar {
     font-family: Roboto-Bold;
     font-size: 24px;
     color: black;
 }
-.paddingNavBar{
+
+.paddingNavBar {
     padding-left: 50px !important;
     padding-right: 50px !important;
 }
-.marginContainer{
+
+.marginContainer {
     margin-left: auto;
     margin-right: auto;
     max-width: 680px;
 }
-.cardMarginTop{
+
+.cardMarginTop {
     margin-top: 20.5px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.cardHeight{
+
+.cardHeight {
     height: 880px;
 }
-.imageSize{
+
+.imageSize {
     height: 440px;
 }
+
 @media screen and (max-width: 900px) {
-    .paddingNavBar{
+    .paddingNavBar {
         padding-left: 25px !important;
         padding-right: 25px !important;
-    };
+    }
 
-    .imageSize{
+    ;
+
+    .imageSize {
         height: 718px;
     }
-    .marginContainer{
+
+    .marginContainer {
         margin-left: auto;
         margin-right: auto;
         max-width: 717px
     }
-    .cardMarginTop{
+
+    .cardMarginTop {
         margin-top: 40px;
         padding-left: 58px;
         padding-right: 58px;
