@@ -10,7 +10,7 @@
 
 .spacing{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 body{
@@ -38,6 +38,8 @@ body{
 }
 .cardMarginTop{
     margin-top: 20.5px;
+    margin-left: 20px;
+    margin-right: 40px;
 }
 .cardHeight{
     height: 880px;
