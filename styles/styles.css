@@ -35,7 +35,11 @@
     height: 50px;
     border: none;
 }
-
+.indexBodyFont{
+    font-family: Roboto-Reg;
+    font-size: 16px;
+    line-height: 1.5;
+}
 .buttonText{
     /* display: flex;
     align-items: center; */
@@ -102,5 +106,6 @@ body{
         padding-right: 58px;
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 40px;
     }
 }
