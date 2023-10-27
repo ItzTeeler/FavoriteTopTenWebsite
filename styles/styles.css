@@ -6,6 +6,15 @@
     font-family: Roboto-Reg;
     src: url(../fonts/Roboto/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
 }
+
+
+.test{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 body{
     background-color: #CE7474;
 }
