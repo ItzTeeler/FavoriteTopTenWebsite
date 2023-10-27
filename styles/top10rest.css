@@ -116,7 +116,7 @@ h1 {
     justify-content: end;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
     .marginContainer {
         margin-left: auto;
         margin-right: auto;
