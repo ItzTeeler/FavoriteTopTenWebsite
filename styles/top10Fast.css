@@ -14,8 +14,10 @@ background-color: rgba(255, 191, 191, 1);
 
 
 
-
-
+/* put these on top of card on your page */
+.topSpace{
+    margin-top: 100px;
+}
 
 
 
@@ -98,7 +100,7 @@ body {
     font-style: bold;
     color: black;
     font-family: Roboto-Reg;
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
 
