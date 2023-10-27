@@ -39,7 +39,7 @@ body{
 .cardMarginTop{
     margin-top: 20.5px;
     margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .cardHeight{
     height: 880px;
@@ -59,8 +59,13 @@ body{
     .marginContainer{
         margin-left: auto;
         margin-right: auto;
-        max-width: 717px;
-    
+        max-width: 717px
     }
-    
+    .cardMarginTop{
+        margin-top: 40px;
+        padding-left: 58px;
+        padding-right: 58px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
