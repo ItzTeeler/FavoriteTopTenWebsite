@@ -7,6 +7,41 @@
     src: url(../fonts/Roboto/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
 }
 
+.indexFont{
+    font-family: Roboto-Bold ;
+    text-align: center;
+    font-size: 28px;
+    font-style: none !important;
+}
+
+
+.bgCardColor{
+    background-color: rgba(218, 218, 218, 1);
+}
+
+.middle{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cardBtn{
+    /* display: flex;
+    justify-content: center; */
+    border-radius: 4px;
+    background-color: #FE0000;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+.buttonText{
+    /* display: flex;
+    align-items: center; */
+    color: white;
+    text-decoration: none;
+}
 
 .spacing{
     display: flex;
