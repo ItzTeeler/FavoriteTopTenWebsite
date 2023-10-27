@@ -48,8 +48,8 @@ body{
     color: black;
 }
 .paddingNavBar{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 h1{
@@ -110,8 +110,8 @@ h1{
     };
 
     .paddingNavBar{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     };
 
     
