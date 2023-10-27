@@ -8,12 +8,10 @@
 }
 
 
-.test{
+.spacing{
     display: flex;
     justify-content: space-around;
 }
-
-
 
 body{
     background-color: #CE7474;
@@ -38,8 +36,14 @@ body{
     margin-right: auto;
     max-width: 680px;
 }
+.cardMarginTop{
+    margin-top: 20.5px;
+}
+.cardHeight{
+    height: 880px;
+}
 .imageSize{
-    height: 489px;
+    height: 440px;
 }
 @media screen and (max-width: 900px) {
     .paddingNavBar{
@@ -47,6 +51,9 @@ body{
         padding-right: 25px !important;
     };
 
+    .imageSize{
+        height: 718px;
+    }
     .marginContainer{
         margin-left: auto;
         margin-right: auto;
