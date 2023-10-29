@@ -114,6 +114,9 @@ h1 {
 .endFont {
     display: flex;
     justify-content: end;
+    font-size: 24px;
+    font-family: Roboto-Reg;
+
 }
 
 @media (max-width: 900px) {

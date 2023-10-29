@@ -16,7 +16,9 @@ background-color: rgba(255, 191, 191, 1);
 .endFont{
     display: flex;
     justify-content: flex-end;
-    font-family: Roboto-Bold ;
+    font-family: Roboto-Reg ;
+    font-size: 24px;
+
 }
 
 /* put these on top of card on your page */
